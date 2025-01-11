@@ -57,7 +57,7 @@ router.post('/register', async (req, res) => {
             from: 'per550017@gmail.com', // Verified Elastic Email sender address
             to: email, // Recipient's email address
             subject: 'Welcome to AsKify',
-            text: `Hi ${name},\n\nWelcome to AsKify, your AI-powered chatbot! We're excited to have you with us.\n\nExplore the potential of AI to assist with your queries and learning. With AsKify, you can:\n\n- Chat with AI for instant answers and help.\n- Ask questions on any topic and get tailored responses.\n- Enjoy an engaging and personalized AI conversation!\n\nStart chatting with AI today: [Visit Our Homepage](https://www.askify.com)\n\nBest regards,\nThe AsKify Team`,
+            text: `Hi ${name},\n\nWelcome to AsKify, your AI-powered chatbot! We're excited to have you with us.\n\nExplore the potential of AI to assist with your queries and learning. With AsKify, you can:\n\n- Chat with AI for instant answers and help.\n- Ask questions on any topic and get tailored responses.\n- Enjoy an engaging and personalized AI conversation!\n\nStart chatting with AI today: [Visit Our Homepage](https://askifyy.netlify.app/)\n\nBest regards,\nThe AsKify Team`,
 
             html: `
                 <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
@@ -73,7 +73,7 @@ router.post('/register', async (req, res) => {
         <li>Make every conversation smarter and more productive!</li>
     </ul>
     <p>
-        <a href="https://www.askify.com" 
+        <a href="https://askifyy.netlify.app/" 
            style="background-color: #4034eb; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
            Start Chatting Now
         </a>

@@ -8,7 +8,7 @@ const app = express
 const router = app.Router()
 const secretkey = process.env.SECRETKEY || 'sjdgcschakcwkvuckwavecvwkuaecvuk'
 
-// Verify token
+// Verify token check
 
 export const verifytoken = (req, res, next) => {
 

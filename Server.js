@@ -14,7 +14,7 @@ const port = process.env.PORT || 3000
 app.use(cookieParser())
 app.use(bodyParser.json())
 app.use(cors({
-    origin: ['http://localhost:5173','https://askifyy.netlify.app'],
+    origin: ['https://askifyy.netlify.app'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],  // Allow Content-Type and Authorization headers
     credentials: true  // Optionally allow credentials (cookies, etc.)
